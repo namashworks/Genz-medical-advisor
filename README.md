@@ -9,8 +9,7 @@ This project addresses the critical gap in healthcare communication for Generati
 ### Key Achievements
 - ✅ **Specialized Domain Adaptation**: Successfully adapted a general-purpose LLM for healthcare-specific applications
 - ✅ **Efficient Training**: Utilized LoRA for parameter-efficient fine-tuning on Google Colab A100 GPU
-- ✅ **Curated Dataset**: Compiled 242 high-quality training examples with authentic Gen Z language patterns
-- ✅ **Safety-First Approach**: Implemented medical safety guardrails while maintaining conversational authenticity
+- ✅ **Synthetic Dataset**: Compiled 242 high-quality training examples with authentic Gen Z language patterns
 
 ## 🚀 Technical Innovation
 
