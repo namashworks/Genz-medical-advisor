@@ -2,7 +2,7 @@
 
 > **Fine-tuned Qwen 2.5 3B model using LoRA on synthetic data to provide comprehensive medical guidance tailored for Gen Z needs**
 
-## 🎯 Project Overview
+## Project Overview
 
 This project addresses the critical gap in healthcare communication for Generation Z by developing an AI medical advisor that speaks their language. By fine-tuning Alibaba's Qwen 2.5 3B Instruct model with Low-Rank Adaptation (LoRA), I created a specialized healthcare assistant that provides medically accurate advice in Gen Z vernacular, making health information more accessible and engaging for young adults.
 
@@ -11,7 +11,7 @@ This project addresses the critical gap in healthcare communication for Generati
 - ✅ **Efficient Training**: Utilized LoRA for parameter-efficient fine-tuning on Google Colab A100 GPU
 - ✅ **Synthetic Dataset**: Compiled 242 high-quality training examples with authentic Gen Z language patterns
 
-## 🚀 Technical Innovation
+## Technical Innovation
 
 ### Architecture & Methods
 - **Base Model**: Qwen 2.5 3B Instruct (State-of-the-art multilingual LLM)
@@ -25,7 +25,7 @@ This project addresses the critical gap in healthcare communication for Generati
 - **Early Intervention**: Encourages healthcare engagement among a demographic that often delays medical care
 - **Scalable Solution**: Efficient training approach enables rapid iteration and improvement
 
-## 📊 Technical Specifications
+## Technical Specifications
 
 | Component | Details |
 |-----------|---------|
@@ -37,7 +37,7 @@ This project addresses the critical gap in healthcare communication for Generati
 | **Training Time** | 10 epochs |
 | **Memory Efficiency** | Parameter-efficient with LoRA adapters |
 
-## 🛠️ Implementation
+## Implementation
 
 ### Dataset Creation
 ```python
@@ -84,7 +84,7 @@ LoraConfig(
 - **Safety Compliance**: Appropriately escalates serious symptoms
 - **Response Quality**: Balances approachability with professionalism
 
-## 🎯 Use Cases & Impact
+## Use Cases & Impact
 
 ### Primary Applications
 1. **Health Education**: Making medical information accessible to young adults
@@ -93,11 +93,11 @@ LoraConfig(
 4. **Preventive Care**: Encouraging healthy lifestyle choices
 
 ### Target Demographics
-- **Primary**: Ages 16-26 (Gen Z)
+- **Primary**: Ages 13-28 (Gen Z)
 - **Secondary**: Healthcare educators and professionals
 - **Tertiary**: Parents seeking to communicate health topics with Gen Z children
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 ```bash
@@ -123,7 +123,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 # Output: [{'generated_text': 'why coffee makes me feel jittery? caffeine is a stimulant that can definitely make you more anxious or jumpy. if coffee is messing with your anxiety, try decaffeinating or cutting back. your nerves will appreciate the calm environment'}]
 ```
 
-## 📈 Results & Evaluation
+## Results & Evaluation
 
 ### Performance Metrics
 - **Coherence Score**: 4.2/5.0
@@ -155,7 +155,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 - **Authenticity**: Validated Gen Z language patterns and cultural references
 - **Safety**: Built-in escalation protocols for serious medical concerns
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 ### Planned Improvements
 - [ ] **Multilingual Support**: Extend to Spanish and other languages
@@ -170,7 +170,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 - Real-time medical database integration
 - Bias detection and mitigation strategies
 
-## 📚 Technical Skills Demonstrated
+## Technical Skills Demonstrated
 
 ### Machine Learning & AI
 - **Large Language Models**: Qwen 2.5, Transformer architectures
@@ -189,7 +189,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 - **Safety Implementation**: Medical ethics and appropriate escalation protocols
 - **User Experience**: Accessible design and inclusive communication
 
-## 📄 Documentation & Resources
+## Documentation & Resources
 
 ### Repository Structure
 ```
@@ -206,7 +206,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 - `requirements.txt`: Complete dependency list
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! This project demonstrates enterprise-level ML engineering practices:
 
