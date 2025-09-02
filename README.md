@@ -176,7 +176,6 @@ print(ask_llm("why coffee makes me feel jittery?"))
 - **Large Language Models**: Qwen 2.5, Transformer architectures
 - **Fine-tuning Techniques**: LoRA, parameter-efficient training
 - **Model Optimization**: Memory efficiency, computational optimization
-- **Evaluation Metrics**: Perplexity, BLEU scores, domain-specific metrics
 
 ### Software Engineering
 - **Python**: Advanced programming with ML libraries
@@ -194,29 +193,18 @@ print(ask_llm("why coffee makes me feel jittery?"))
 
 ### Repository Structure
 ```
-├── data/
+├── dataset/
 │   ├── synthetic_dataset.json
-│   └── preprocessing_scripts/
-├── models/
-│   ├── training_config.yaml
-│   └── lora_adapters/
-├── evaluation/
-│   ├── metrics.py
-│   └── validation_results/
-├── notebooks/
-│   ├── data_exploration.ipynb
-│   └── training_analysis.ipynb
-└── deployment/
-    ├── api_server.py
-    └── inference_pipeline.py
+├── code/
+│   ├── genz_medical_advisor_model.ipynb
+|   ├── requirements.txt
 ```
 
 ### Key Files
-- `train.py`: Main training script with LoRA implementation
-- `evaluate.py`: Model evaluation and metrics calculation
-- `inference.py`: Production inference pipeline
+- `genz_medical_advisor_model.ipynb`: Main training script with LoRA implementation
+- `synthetic_dataset`: Training synthetic dataset for genz medical advice with prompt completion pair 
 - `requirements.txt`: Complete dependency list
-- `config.yaml`: Hyperparameter configurations
+
 
 ## 🤝 Contributing
 
