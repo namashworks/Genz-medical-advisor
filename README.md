@@ -34,7 +34,7 @@ This project addresses the critical gap in healthcare communication for Generati
 | **Training Data** | 242 curated medical Q&A pairs |
 | **Domain Focus** | Gen Z healthcare communication |
 | **Training Platform** | Google Colab (A100 GPU) |
-| **Training Time** | 10 epochs, ~2-3 hours |
+| **Training Time** | 10 epochs |
 | **Memory Efficiency** | Parameter-efficient with LoRA adapters |
 
 ## 🛠️ Implementation
