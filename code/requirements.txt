@@ -1,0 +1,23 @@
+# Core ML and NLP libraries
+torch>=2.0.0
+torchvision>=0.15.0
+transformers>=4.35.0
+datasets>=2.14.0
+peft>=0.6.0
+accelerate>=0.24.0
+
+# Data processing
+numpy>=1.24.0
+pandas>=2.0.0
+
+# Development and notebook environment
+jupyter>=1.0.0
+notebook>=6.5.0
+ipython>=7.34.0
+
+# Utilities
+tqdm>=4.65.0
+pillow>=9.5.0
+requests>=2.28.0
+huggingface-hub>=0.17.0
+
