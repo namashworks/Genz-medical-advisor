@@ -141,7 +141,7 @@ print(ask_llm("why coffee makes me feel jittery?"))
 **Input**: "My TMJ hurts bro, what to do?"
 **Output**: "TMJ stands for jaw joint - the little hinge in your head that connects your skull to your lower jaw. Tension from teeth grinding, stress, or whatever's going on in your life can make it hurt. Try these: gentle stretching, stress management, avoiding hard foods, maybe a warm compress, don't clench your teeth, get proper sleep hygiene. if it's chronic or getting worse, better see someone who can check for other causes"
 
-## 🔬 Technical Deep Dive
+## Technical Deep Dive
 
 ### LoRA Implementation Benefits
 - **Parameter Efficiency**: Only 0.16% of model parameters updated
@@ -193,11 +193,11 @@ print(ask_llm("why coffee makes me feel jittery?"))
 
 ### Repository Structure
 ```
-├── dataset/
-│   ├── synthetic_dataset.json
 ├── code/
 │   ├── genz_medical_advisor_model.ipynb
 |   ├── requirements.txt
+├── dataset/
+│   ├── synthetic_dataset.json
 ```
 
 ### Key Files
